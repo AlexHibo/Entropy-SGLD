@@ -63,7 +63,7 @@ The same binarized setup (classes 0–4 vs. 5–9) is applied to FashionMNIST. T
 
 ## PAC-Bayes Bound (Attempted)
 
-An attempt was made to compute the PAC-Bayes generalization bound using the KL divergence estimator described in Appendix C.3.2 of the paper (Monte Carlo estimation of KL(P_exp(−ℓ) ‖ P)). Due to instability in the estimator — including negative KL values — this part was left incomplete in favour of focusing on the main training algorithm and its empirical evaluation.
+An attempt was made to compute the PAC-Bayes generalization bound using the KL divergence estimator described in Appendix C.3.2 of the paper (Monte Carlo estimation of KL(P_exp(−ℓ) ‖ P)). Due to instability in the estimator, including negative KL values, this part was left incomplete in favour of focusing on the main training algorithm and its empirical evaluation.
 
 ---
 
